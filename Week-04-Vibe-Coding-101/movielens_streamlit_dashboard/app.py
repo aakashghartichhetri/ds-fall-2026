@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide",
 )
 
-DATA_PATH = Path(__file__).parent / "/Users/ace-xeon/Desktop/fall-2026/ctp/ds-fall-2026/Week-04-Vibe-Coding-101/data/movie_ratings.csv"
+DATA_PATH = Path(__file__).parent / "movie_ratings.csv"
 
 
 @st.cache_data
